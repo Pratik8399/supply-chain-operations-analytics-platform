@@ -40,16 +40,19 @@ Message: "Add 9-stage orchestration, narrative insight generation, RBAC
           model + KPI views)"
 
 ## Day 5 — BI layer, dashboards, CI, enablement docs
-git add: etl/export_for_bi.py snowflake_sql/ dashboards/
+git add: etl/export_for_bi.py etl/verify_bigquery.py .env.example
+         snowflake_sql/ dashboards/
          .github/workflows/ci.yml tests/check_detection_recall.py
+         docs/bigquery_looker_runbook.md
          docs/architecture.md docs/dashboard_adoption_guide.md
          docs/dashboard_wireframe.md docs/looker_studio_guide.md
          docs/resume_bullets.md docs/interview_talking_points.md
 Message: "Add BI exports, Snowflake reference DDL, Looker Studio guide,
           dashboard wireframes, and CI with detection-recall regression gate"
-(If you build the Tableau workbook and Looker Studio report: add one
-screenshot of each to dashboards/screenshots/ and link them in README
-before this commit.)
+(Complete docs/bigquery_looker_runbook.md first: run the loader against
+your GCP project, run verify_bigquery.py, build the Looker Studio report,
+save the four screenshots to dashboards/screenshots/, and uncomment the
+Dashboards section in README before this commit.)
 
 Never commit: data/raw/*.csv (size + Kaggle license),
 data/processed/transactions_augmented.csv (large, regenerable),

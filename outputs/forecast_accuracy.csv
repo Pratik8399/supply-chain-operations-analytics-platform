@@ -1,10 +1,32 @@
 category_name,model,weeks_history,weeks_backtested,MAPE_pct,WMAPE_pct,bias_pct
-Men's Footwear,holt_winters,156,12,77.49,43.64,24.7
-Electronics,holt_winters,153,12,133.7,45.52,92.76
-Fishing,holt_winters,156,12,63.76,50.95,27.9
-Water Sports,holt_winters,155,12,54.32,50.97,-9.6
-Camping & Hiking,holt_winters,155,12,75.21,52.39,46.0
-Indoor/Outdoor Games,holt_winters,155,12,70.8,53.47,63.85
-Cardio Equipment,holt_winters,156,12,116.29,76.27,64.78
-Cleats,holt_winters,150,12,198.32,79.08,148.18
-Women's Apparel,holt_winters,156,12,152.29,79.69,130.71
+Camping & Hiking,holt_winters,145,12,206.93,14.6,206.53
+Electronics,holt_winters,121,12,14.81,15.06,-2.99
+Cleats,holt_winters,145,12,108.66,16.84,103.37
+Women's Apparel,holt_winters,145,12,147.25,17.7,141.71
+Cardio Equipment,holt_winters,145,12,113.17,18.55,97.15
+Shop By Sport,holt_winters,145,12,373.17,19.71,363.88
+Men's Footwear,holt_winters,145,12,147.92,20.19,144.47
+Water Sports,holt_winters,145,12,112.1,20.53,98.34
+Fishing,holt_winters,145,12,326.15,21.62,308.68
+Golf Balls,holt_winters,121,12,25.79,22.08,9.66
+Indoor/Outdoor Games,holt_winters,145,12,193.51,22.39,185.79
+Fitness Accessories,holt_winters,144,12,29.35,29.35,-10.11
+Women's Golf Clubs,holt_winters,21,12,26.36,30.75,-18.89
+Accessories,holt_winters,121,12,43.73,36.16,17.17
+Golf Shoes,holt_winters,140,12,46.52,37.43,20.88
+Golf Bags & Carts,holt_winters,19,12,53.94,38.27,25.09
+Kids' Golf Clubs,holt_winters,25,12,188.56,38.93,162.98
+Men's Golf Clubs,holt_winters,22,12,127.19,39.3,101.8
+Boxing & MMA,holt_winters,140,12,49.18,41.05,8.19
+Girls' Apparel,holt_winters,121,12,50.67,41.49,31.17
+Soccer,holt_winters,21,12,52.0,43.31,45.47
+Hockey,holt_winters,144,12,45.85,46.14,12.01
+Hunting & Shooting,holt_winters,141,12,62.37,46.71,35.63
+Golf Gloves,holt_winters,144,12,57.49,47.69,27.04
+Golf Apparel,holt_winters,140,12,68.7,49.16,52.08
+Lacrosse,holt_winters,141,12,127.4,50.67,99.41
+Strength Training,holt_winters,24,12,45.62,58.27,-33.68
+As Seen on  TV!,holt_winters,20,12,95.45,62.31,38.73
+Tennis & Racquet,holt_winters,120,12,154.08,89.49,119.5
+Trade-In,holt_winters,141,12,137.73,134.68,42.88
+Baseball & Softball,holt_winters,142,12,461.97,320.88,391.42

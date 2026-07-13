@@ -7,9 +7,19 @@ injection rates (each rate maps 1:1 to a detector + a validation row in
 the injection manifest).
 """
 
+import os
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+# Load .env if present (GCP_PROJECT_ID etc.); fails silently without dotenv
+try:
+    from dotenv import load_dotenv
+    load_dotenv(PROJECT_ROOT / ".env")
+except ImportError:
+    pass
+
+GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID", "")
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 SAMPLE_DIR = PROJECT_ROOT / "data" / "sample"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"

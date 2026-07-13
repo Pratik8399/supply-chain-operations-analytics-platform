@@ -1,8 +1,8 @@
 route_to,issue,severity,alert_count,what_we_saw,recommended_action,review_sla
-Finance Ops,cost_spike,critical,30,billing amounts far above catalog-expected totals,Reconcile flagged order totals against contract pricing before month-end close.,within 24 hours
-Logistics,sla_breach,high,51,shipments delivered 4+ days past the scheduled window,Review carrier and route performance for the flagged orders; escalate repeat lanes.,within 3 business days
-Demand Planning,demand_shock,high,37,weekly demand far outside the category's local baseline,"Confirm drivers (promo, stockout, market event) and adjust replenishment plans.",within 3 business days
-Order Management,duplicate_transactions,high,20,exact duplicate order-item records,De-duplicate before revenue reporting; add a uniqueness constraint at the curated layer.,within 3 business days
-Demand Planning,forecast_drift,medium,111,actual demand diverging >15% from plan,Review planner assumptions for the flagged category-weeks; re-baseline if drift persists.,within 2 weeks
-Data Engineering,missing_values,medium,40,orders missing critical fields (sales/quantity),Trace to the source extract; block at ingestion once root cause is fixed.,within 2 weeks
-Analytics Review,multivariate_outlier,medium,32,"unusual combinations of amount, quantity, discount and delay",Analyst review; label outcomes to tune the model.,within 2 weeks
+Finance Ops,cost_spike,critical,1085,billing amounts far above catalog-expected totals,Reconcile flagged order totals against contract pricing before month-end close.,within 24 hours
+Logistics,sla_breach,high,8749,shipments delivered 4+ days past the scheduled window,Review carrier and route performance for the flagged orders; escalate repeat lanes.,within 3 business days
+Order Management,duplicate_transactions,high,722,exact duplicate order-item records,De-duplicate before revenue reporting; add a uniqueness constraint at the curated layer.,within 3 business days
+Demand Planning,demand_shock,high,127,weekly demand far outside the category's local baseline,"Confirm drivers (promo, stockout, market event) and adjust replenishment plans.",within 3 business days
+Data Engineering,missing_values,medium,1450,orders missing critical fields (sales/quantity),Trace to the source extract; block at ingestion once root cause is fixed.,within 2 weeks
+Analytics Review,multivariate_outlier,medium,1249,"unusual combinations of amount, quantity, discount and delay",Analyst review; label outcomes to tune the model.,within 2 weeks
+Demand Planning,forecast_drift,medium,225,actual demand diverging >15% from plan,Review planner assumptions for the flagged category-weeks; re-baseline if drift persists.,within 2 weeks

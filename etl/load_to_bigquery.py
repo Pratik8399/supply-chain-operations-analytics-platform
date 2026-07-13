@@ -25,7 +25,7 @@ from __future__ import annotations
 import os
 import re
 
-from config import OUTPUT_DIR, PROCESSED_DIR, PROJECT_ROOT
+from config import GCP_PROJECT_ID, OUTPUT_DIR, PROCESSED_DIR, PROJECT_ROOT
 
 SQL_DIR = PROJECT_ROOT / "bigquery_sql"
 DATASET = "supply_chain"
@@ -44,13 +44,20 @@ def _qualify(sql: str, project_id: str) -> str:
 
 def _run_sql_file(client, path, project_id) -> None:
     raw = path.read_text()
-    # split on semicolons that end statements; skip comment-only chunks
-    for stmt in raw.split(";"):
-        body = "\n".join(l for l in stmt.splitlines()
-                         if not l.strip().startswith("--")).strip()
+
+    # Remove full-line SQL comments before splitting statements.
+    # This prevents semicolons inside comments from being treated as query delimiters.
+    cleaned = "\n".join(
+        line for line in raw.splitlines()
+        if not line.strip().startswith("--")
+    )
+
+    for stmt in cleaned.split(";"):
+        body = stmt.strip()
         if not body:
             continue
         client.query(_qualify(body, project_id)).result()
+
     print(f"  applied {path.name}")
 
 
@@ -58,19 +65,101 @@ def _load_csv(client, csv_path, table, project_id, write="WRITE_TRUNCATE"):
     if not csv_path.exists():
         print(f"  skip {table}: {csv_path.name} not found")
         return
-    job_config = bigquery.LoadJobConfig(
-        autodetect=True, skip_leading_rows=1,
-        source_format=bigquery.SourceFormat.CSV,
-        write_disposition=write)
-    with open(csv_path, "rb") as f:
-        job = client.load_table_from_file(
-            f, f"{project_id}.{DATASET}.{table}", job_config=job_config)
+
+    import pandas as pd
+
+    df = pd.read_csv(csv_path)
+
+    schema = None
+    job_config_kwargs = {
+        "write_disposition": write,
+    }
+
+    if table == "stg_order_items":
+        df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
+        df["shipping_date"] = pd.to_datetime(df["shipping_date"], errors="coerce")
+
+        schema = [
+            bigquery.SchemaField("order_id", "INT64"),
+            bigquery.SchemaField("order_item_id", "INT64"),
+            bigquery.SchemaField("order_date", "TIMESTAMP"),
+            bigquery.SchemaField("shipping_date", "TIMESTAMP"),
+            bigquery.SchemaField("ship_days_actual", "INT64"),
+            bigquery.SchemaField("ship_days_scheduled", "INT64"),
+            bigquery.SchemaField("delivery_status", "STRING"),
+            bigquery.SchemaField("late_delivery_risk", "INT64"),
+            bigquery.SchemaField("order_status", "STRING"),
+            bigquery.SchemaField("shipping_mode", "STRING"),
+            bigquery.SchemaField("customer_id", "INT64"),
+            bigquery.SchemaField("customer_segment", "STRING"),
+            bigquery.SchemaField("market", "STRING"),
+            bigquery.SchemaField("order_region", "STRING"),
+            bigquery.SchemaField("order_country", "STRING"),
+            bigquery.SchemaField("category_name", "STRING"),
+            bigquery.SchemaField("product_name", "STRING"),
+            bigquery.SchemaField("product_price", "FLOAT64"),
+            bigquery.SchemaField("quantity", "FLOAT64"),
+            bigquery.SchemaField("discount", "FLOAT64"),
+            bigquery.SchemaField("sales", "FLOAT64"),
+            bigquery.SchemaField("order_item_total", "FLOAT64"),
+            bigquery.SchemaField("order_profit", "FLOAT64"),
+            bigquery.SchemaField("benefit_per_order", "FLOAT64"),
+        ]
+
+        
+
+    elif table == "fct_weekly_demand":
+        df["week"] = pd.to_datetime(df["week"], errors="coerce").dt.date
+
+        schema = [
+            bigquery.SchemaField("category_name", "STRING"),
+            bigquery.SchemaField("week", "DATE"),
+            bigquery.SchemaField("demand_units", "FLOAT64"),
+            bigquery.SchemaField("demand_value", "FLOAT64"),
+            bigquery.SchemaField("orders", "INT64"),
+            bigquery.SchemaField("avg_price", "FLOAT64"),
+            bigquery.SchemaField("forecast_units", "FLOAT64"),
+            bigquery.SchemaField("inventory_units", "FLOAT64"),
+            bigquery.SchemaField("holding_cost", "FLOAT64"),
+        ]
+
+        
+
+    elif table == "fct_anomaly_alerts":
+        schema = [
+            bigquery.SchemaField("issue", "STRING"),
+            bigquery.SchemaField("key", "STRING"),
+            bigquery.SchemaField("detail", "STRING"),
+            bigquery.SchemaField("severity", "STRING"),
+            bigquery.SchemaField("route_to", "STRING"),
+        ]
+
+    job_config_kwargs["schema"] = schema
+
+    job_config = bigquery.LoadJobConfig(**job_config_kwargs)
+
+    destination = f"{project_id}.{DATASET}.{table}"
+
+    print(f"  local dataframe rows for {table}: {len(df):,}")
+
+    # Force a clean table rebuild so old BigQuery schemas/partitions do not survive.
+    client.delete_table(destination, not_found_ok=True)
+
+    job = client.load_table_from_dataframe(
+        df,
+        destination,
+        job_config=job_config,
+    )
     job.result()
-    print(f"  loaded {job.output_rows:,} rows -> {table}")
+
+    print(f"  BigQuery load job output rows for {table}: {job.output_rows:,}")
+
+    table_obj = client.get_table(destination)
+    print(f"  loaded {table_obj.num_rows:,} rows -> {table}")
 
 
 def main() -> None:
-    project_id = os.getenv("GCP_PROJECT_ID")
+    project_id = GCP_PROJECT_ID or os.getenv("GCP_PROJECT_ID")
     if not BQ_INSTALLED:
         print("SKIP BigQuery load: google-cloud-bigquery not installed "
               "(pip install google-cloud-bigquery). Local pipeline continues.")

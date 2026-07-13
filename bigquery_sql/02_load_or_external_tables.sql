@@ -20,20 +20,48 @@
 -- CTAS (CREATE OR REPLACE TABLE AS SELECT) instead of TRUNCATE+INSERT:
 -- idempotent, atomic, and sandbox-friendly — the BigQuery sandbox does
 -- not support DML statements, but CTAS works everywhere.
-CREATE OR REPLACE TABLE `supply_chain.fct_order_items`
-PARTITION BY DATE(order_date)
-CLUSTER BY category_name, market AS
-SELECT * FROM `supply_chain.stg_order_items`
-WHERE sales IS NOT NULL
-  AND quantity IS NOT NULL;      -- gate-failed rows stay in staging
+DROP TABLE IF EXISTS `supply_chain.fct_order_items`;
+CREATE OR REPLACE TABLE `supply_chain.fct_order_items` AS
+SELECT
+  order_item_id,
+  order_id,
+  DATE(order_date) AS order_dt,
+  DATE(shipping_date) AS shipping_dt,
+  order_date,
+  shipping_date,
+  ship_days_actual,
+  ship_days_scheduled,
+  delivery_status,
+  late_delivery_risk,
+  order_status,
+  shipping_mode,
+  customer_id,
+  customer_segment,
+  market,
+  order_region,
+  order_country,
+  category_name,
+  product_name,
+  product_price,
+  quantity,
+  discount,
+  sales,
+  order_item_total,
+  order_profit,
+  benefit_per_order
+FROM `supply_chain.stg_order_items`
+WHERE order_item_id IS NOT NULL;     -- gate-failed rows stay in staging
 
 -- Derive dims from facts (conformed)
+DROP TABLE IF EXISTS `supply_chain.dim_category`;
 CREATE OR REPLACE TABLE `supply_chain.dim_category` AS
-SELECT category_name,
-       MIN(DATE(order_date)) AS first_seen,
-       MAX(DATE(order_date)) AS last_seen,
-       COUNT(DISTINCT product_name) AS n_products
-FROM `supply_chain.fct_order_items` GROUP BY 1;
+SELECT
+  category_name,
+  MIN(order_dt) AS first_seen,
+  MAX(order_dt) AS last_seen,
+  COUNT(DISTINCT product_name) AS n_products
+FROM `supply_chain.fct_order_items`
+GROUP BY 1;
 
 CREATE OR REPLACE TABLE `supply_chain.dim_date` AS
 SELECT d          AS date_key,

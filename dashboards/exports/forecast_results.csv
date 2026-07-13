@@ -1,109 +1,373 @@
 week,actual,predicted,category_name
-2017-10-02,7.0,12.9,Camping & Hiking
-2017-10-09,22.0,4.9,Camping & Hiking
-2017-10-16,10.0,2.9,Camping & Hiking
-2017-10-23,2.0,8.4,Camping & Hiking
-2017-10-30,8.0,7.1,Camping & Hiking
-2017-11-06,9.0,8.3,Camping & Hiking
-2017-11-13,5.0,8.9,Camping & Hiking
-2017-11-20,8.0,11.2,Camping & Hiking
-2017-11-27,8.0,7.4,Camping & Hiking
-2017-12-04,4.0,4.0,Camping & Hiking
-2017-12-11,8.0,8.4,Camping & Hiking
-2017-12-18,1.0,3.0,Camping & Hiking
-2017-10-02,7.0,13.4,Cardio Equipment
-2017-10-09,2.0,16.4,Cardio Equipment
-2017-10-16,6.0,13.4,Cardio Equipment
-2017-10-23,8.0,7.9,Cardio Equipment
-2017-10-30,10.0,1.0,Cardio Equipment
-2017-11-06,2.0,1.0,Cardio Equipment
-2017-11-13,14.0,7.0,Cardio Equipment
-2017-11-20,9.0,4.0,Cardio Equipment
-2017-11-27,6.0,14.5,Cardio Equipment
-2017-12-04,5.0,5.5,Cardio Equipment
-2017-12-11,5.0,3.0,Cardio Equipment
-2017-12-18,9.0,7.0,Cardio Equipment
-2017-09-25,5.0,18.2,Cleats
-2017-10-02,25.0,3.5,Cleats
-2017-10-09,13.0,9.0,Cleats
-2017-10-16,8.0,4.5,Cleats
-2017-10-23,2.0,6.7,Cleats
-2017-10-30,12.0,13.2,Cleats
-2017-11-06,6.5,5.2,Cleats
-2017-11-13,1.0,10.2,Cleats
-2017-11-20,17.0,4.0,Cleats
-2017-11-27,13.0,7.3,Cleats
-2017-12-04,1.0,7.0,Cleats
-2017-12-11,5.0,7.5,Cleats
-2017-09-25,14.0,12.3,Electronics
-2017-10-02,14.0,11.8,Electronics
-2017-10-09,7.0,4.3,Electronics
-2017-10-16,2.0,7.8,Electronics
-2017-10-23,12.0,7.6,Electronics
-2017-10-30,8.0,8.3,Electronics
-2017-11-06,1.0,9.3,Electronics
-2017-11-13,6.0,2.3,Electronics
-2017-11-20,11.0,9.8,Electronics
-2017-11-27,2.0,6.3,Electronics
-2017-12-04,6.0,1.8,Electronics
-2017-12-11,4.0,4.8,Electronics
-2017-10-02,3.0,7.4,Fishing
-2017-10-09,8.0,8.4,Fishing
-2017-10-16,6.0,10.9,Fishing
-2017-10-23,10.0,6.9,Fishing
-2017-10-30,5.0,3.3,Fishing
-2017-11-06,8.0,5.8,Fishing
-2017-11-13,6.0,5.8,Fishing
-2017-11-20,4.5,6.3,Fishing
-2017-11-27,3.0,11.3,Fishing
-2017-12-04,20.0,7.3,Fishing
-2017-12-11,11.0,5.3,Fishing
-2017-12-18,5.0,4.8,Fishing
-2017-09-25,5.0,9.2,Indoor/Outdoor Games
-2017-10-02,8.0,14.7,Indoor/Outdoor Games
-2017-10-09,6.0,6.7,Indoor/Outdoor Games
-2017-10-16,7.0,10.7,Indoor/Outdoor Games
-2017-10-23,11.0,7.2,Indoor/Outdoor Games
-2017-10-30,3.0,9.0,Indoor/Outdoor Games
-2017-11-06,5.0,6.5,Indoor/Outdoor Games
-2017-11-13,7.0,6.5,Indoor/Outdoor Games
-2017-11-20,3.0,10.7,Indoor/Outdoor Games
-2017-11-27,10.0,10.4,Indoor/Outdoor Games
-2017-12-04,6.0,10.5,Indoor/Outdoor Games
-2017-12-11,4.0,4.4,Indoor/Outdoor Games
-2017-10-02,2.0,8.3,Men's Footwear
-2017-10-09,13.0,13.8,Men's Footwear
-2017-10-16,14.0,6.3,Men's Footwear
-2017-10-23,2.0,6.8,Men's Footwear
-2017-10-30,10.0,10.2,Men's Footwear
-2017-11-06,16.0,9.7,Men's Footwear
-2017-11-13,13.0,9.2,Men's Footwear
-2017-11-20,19.0,12.7,Men's Footwear
-2017-11-27,5.0,7.5,Men's Footwear
-2017-12-04,8.0,3.5,Men's Footwear
-2017-12-11,8.0,1.5,Men's Footwear
-2017-12-18,8.0,6.2,Men's Footwear
-2017-10-02,14.0,9.0,Water Sports
-2017-10-09,13.666666666666666,3.5,Water Sports
-2017-10-16,13.333333333333334,3.0,Water Sports
-2017-10-23,13.0,7.5,Water Sports
-2017-10-30,3.0,7.5,Water Sports
-2017-11-06,6.0,5.0,Water Sports
-2017-11-13,5.0,5.5,Water Sports
-2017-11-20,11.0,5.5,Water Sports
-2017-11-27,7.0,5.0,Water Sports
-2017-12-04,3.0,5.5,Water Sports
-2017-12-11,6.0,2.5,Water Sports
-2017-12-18,8.0,10.0,Water Sports
-2017-10-02,13.0,12.3,Women's Apparel
-2017-10-09,17.0,13.8,Women's Apparel
-2017-10-16,18.0,7.3,Women's Apparel
-2017-10-23,12.0,7.3,Women's Apparel
-2017-10-30,6.0,13.1,Women's Apparel
-2017-11-06,7.0,8.1,Women's Apparel
-2017-11-13,4.0,10.8,Women's Apparel
-2017-11-20,3.0,18.6,Women's Apparel
-2017-11-27,2.0,12.6,Women's Apparel
-2017-12-04,5.0,11.6,Women's Apparel
-2017-12-11,6.0,5.6,Women's Apparel
-2017-12-18,5.0,15.6,Women's Apparel
+2017-01-30,53.0,25.0,Accessories
+2017-02-06,55.0,48.5,Accessories
+2017-02-13,42.0,48.0,Accessories
+2017-02-20,35.0,58.5,Accessories
+2017-02-27,23.0,46.2,Accessories
+2017-03-06,70.0,42.2,Accessories
+2017-03-13,46.0,39.2,Accessories
+2017-03-20,36.0,53.2,Accessories
+2017-03-27,49.0,51.6,Accessories
+2017-04-03,65.0,45.1,Accessories
+2017-04-10,51.0,46.1,Accessories
+2017-04-17,25.0,57.5,Accessories
+2017-06-19,8.0,5.2,As Seen on  TV!
+2017-06-26,16.0,10.4,As Seen on  TV!
+2017-07-03,8.0,8.6,As Seen on  TV!
+2017-07-10,16.0,0.0,As Seen on  TV!
+2017-07-17,9.0,11.0,As Seen on  TV!
+2017-07-24,15.0,1.9,As Seen on  TV!
+2017-07-31,16.0,7.9,As Seen on  TV!
+2017-08-07,3.0,15.9,As Seen on  TV!
+2017-08-14,8.0,8.2,As Seen on  TV!
+2017-08-21,14.0,16.5,As Seen on  TV!
+2017-08-28,13.0,8.8,As Seen on  TV!
+2017-09-04,4.0,17.0,As Seen on  TV!
+2017-06-26,1.0,18.4,Baseball & Softball
+2017-07-03,2.0,30.9,Baseball & Softball
+2017-07-10,5.0,17.6,Baseball & Softball
+2017-07-17,3.0,18.8,Baseball & Softball
+2017-07-24,3.0,0.0,Baseball & Softball
+2017-07-31,3.0,2.3,Baseball & Softball
+2017-08-07,2.0,0.0,Baseball & Softball
+2017-08-14,4.0,0.0,Baseball & Softball
+2017-08-21,5.0,0.0,Baseball & Softball
+2017-08-28,3.0,8.9,Baseball & Softball
+2017-09-04,2.0,10.4,Baseball & Softball
+2017-09-11,1.0,6.4,Baseball & Softball
+2017-06-19,9.0,21.2,Boxing & MMA
+2017-06-26,18.0,18.7,Boxing & MMA
+2017-07-03,11.0,19.7,Boxing & MMA
+2017-07-10,11.0,24.5,Boxing & MMA
+2017-07-17,18.0,13.7,Boxing & MMA
+2017-07-24,32.0,12.5,Boxing & MMA
+2017-07-31,14.0,11.2,Boxing & MMA
+2017-08-07,21.0,15.2,Boxing & MMA
+2017-08-14,31.0,18.4,Boxing & MMA
+2017-08-21,25.0,18.0,Boxing & MMA
+2017-08-28,27.0,27.8,Boxing & MMA
+2017-09-04,31.0,17.1,Boxing & MMA
+2017-07-17,109.0,108.6,Camping & Hiking
+2017-07-24,90.0,101.1,Camping & Hiking
+2017-07-31,91.0,98.1,Camping & Hiking
+2017-08-07,87.0,93.6,Camping & Hiking
+2017-08-14,92.0,101.6,Camping & Hiking
+2017-08-21,88.0,89.6,Camping & Hiking
+2017-08-28,99.0,104.1,Camping & Hiking
+2017-09-04,97.0,95.6,Camping & Hiking
+2017-09-11,103.0,102.4,Camping & Hiking
+2017-09-18,95.0,104.4,Camping & Hiking
+2017-09-25,91.0,93.9,Camping & Hiking
+2017-10-02,4.0,100.9,Camping & Hiking
+2017-07-17,288.0,197.4,Cardio Equipment
+2017-07-24,279.0,212.9,Cardio Equipment
+2017-07-31,234.0,227.9,Cardio Equipment
+2017-08-07,248.0,222.9,Cardio Equipment
+2017-08-14,251.0,255.5,Cardio Equipment
+2017-08-21,242.0,224.5,Cardio Equipment
+2017-08-28,267.0,273.5,Cardio Equipment
+2017-09-04,294.0,249.0,Cardio Equipment
+2017-09-11,219.0,254.4,Cardio Equipment
+2017-09-18,284.0,267.9,Cardio Equipment
+2017-09-25,281.0,283.8,Cardio Equipment
+2017-10-02,18.0,241.3,Cardio Equipment
+2017-07-17,506.0,476.7,Cleats
+2017-07-24,497.0,486.2,Cleats
+2017-07-31,472.0,511.2,Cleats
+2017-08-07,517.0,559.2,Cleats
+2017-08-14,483.0,497.4,Cleats
+2017-08-21,546.0,564.9,Cleats
+2017-08-28,585.0,502.9,Cleats
+2017-09-04,487.0,561.4,Cleats
+2017-09-11,511.0,461.4,Cleats
+2017-09-18,447.0,547.9,Cleats
+2017-09-25,486.0,504.4,Cleats
+2017-10-02,38.0,496.9,Cleats
+2017-01-30,67.0,68.2,Electronics
+2017-02-06,74.0,59.7,Electronics
+2017-02-13,88.0,90.2,Electronics
+2017-02-20,63.0,78.2,Electronics
+2017-02-27,90.0,90.0,Electronics
+2017-03-06,71.0,72.5,Electronics
+2017-03-13,78.0,83.5,Electronics
+2017-03-20,59.0,53.5,Electronics
+2017-03-27,102.0,62.5,Electronics
+2017-04-03,71.0,43.0,Electronics
+2017-04-10,49.0,54.0,Electronics
+2017-04-17,54.0,66.5,Electronics
+2017-07-17,118.0,116.6,Fishing
+2017-07-24,129.0,112.6,Fishing
+2017-07-31,108.0,115.6,Fishing
+2017-08-07,129.0,109.6,Fishing
+2017-08-14,126.0,131.7,Fishing
+2017-08-21,142.0,118.2,Fishing
+2017-08-28,103.0,134.7,Fishing
+2017-09-04,115.0,112.7,Fishing
+2017-09-11,143.0,116.9,Fishing
+2017-09-18,138.0,109.5,Fishing
+2017-09-25,140.0,114.5,Fishing
+2017-10-02,3.0,116.0,Fishing
+2017-07-10,6.652173913043479,11.1,Fitness Accessories
+2017-07-17,6.956521739130436,5.8,Fitness Accessories
+2017-07-24,7.260869565217392,6.8,Fitness Accessories
+2017-07-31,7.565217391304348,9.3,Fitness Accessories
+2017-08-07,7.869565217391305,4.7,Fitness Accessories
+2017-08-14,8.173913043478262,5.7,Fitness Accessories
+2017-08-21,8.478260869565219,8.7,Fitness Accessories
+2017-08-28,8.782608695652174,7.2,Fitness Accessories
+2017-09-04,9.08695652173913,7.3,Fitness Accessories
+2017-09-11,9.391304347826088,1.8,Fitness Accessories
+2017-09-18,9.695652173913045,7.3,Fitness Accessories
+2017-09-25,10.0,12.3,Fitness Accessories
+2017-01-30,13.0,23.8,Girls' Apparel
+2017-02-06,27.0,46.3,Girls' Apparel
+2017-02-13,35.0,38.8,Girls' Apparel
+2017-02-20,42.0,30.3,Girls' Apparel
+2017-02-27,19.0,32.9,Girls' Apparel
+2017-03-06,25.0,37.9,Girls' Apparel
+2017-03-13,15.0,34.4,Girls' Apparel
+2017-03-20,34.0,22.9,Girls' Apparel
+2017-03-27,28.0,30.3,Girls' Apparel
+2017-04-03,21.0,34.3,Girls' Apparel
+2017-04-10,43.0,31.3,Girls' Apparel
+2017-04-17,40.0,28.3,Girls' Apparel
+2017-06-19,2.0,8.7,Golf Apparel
+2017-06-26,9.0,9.7,Golf Apparel
+2017-07-03,7.0,21.2,Golf Apparel
+2017-07-10,5.0,6.7,Golf Apparel
+2017-07-17,6.0,5.7,Golf Apparel
+2017-07-24,7.0,7.7,Golf Apparel
+2017-07-31,10.0,10.2,Golf Apparel
+2017-08-07,8.0,8.7,Golf Apparel
+2017-08-14,7.0,15.7,Golf Apparel
+2017-08-21,10.0,6.7,Golf Apparel
+2017-08-28,7.0,5.2,Golf Apparel
+2017-09-04,5.0,3.2,Golf Apparel
+2017-06-12,1.0,3.2,Golf Bags & Carts
+2017-06-19,6.0,6.3,Golf Bags & Carts
+2017-06-26,3.0,3.5,Golf Bags & Carts
+2017-07-03,4.0,2.7,Golf Bags & Carts
+2017-07-10,3.0,1.9,Golf Bags & Carts
+2017-07-17,1.0,0.8,Golf Bags & Carts
+2017-07-24,2.0,5.7,Golf Bags & Carts
+2017-07-31,3.0,2.7,Golf Bags & Carts
+2017-08-07,4.0,5.9,Golf Bags & Carts
+2017-08-14,6.0,2.9,Golf Bags & Carts
+2017-08-21,4.5,3.8,Golf Bags & Carts
+2017-08-28,3.0,2.8,Golf Bags & Carts
+2017-01-30,25.0,30.8,Golf Balls
+2017-02-06,44.0,42.8,Golf Balls
+2017-02-13,38.0,21.3,Golf Balls
+2017-02-20,44.0,40.3,Golf Balls
+2017-02-27,42.0,44.4,Golf Balls
+2017-03-06,22.0,13.9,Golf Balls
+2017-03-13,24.0,29.9,Golf Balls
+2017-03-20,20.0,37.4,Golf Balls
+2017-03-27,35.0,33.3,Golf Balls
+2017-04-03,27.0,38.3,Golf Balls
+2017-04-10,23.0,25.3,Golf Balls
+2017-04-17,31.0,37.3,Golf Balls
+2017-07-10,14.0,16.9,Golf Gloves
+2017-07-17,12.0,25.4,Golf Gloves
+2017-07-24,7.0,20.4,Golf Gloves
+2017-07-31,21.0,14.9,Golf Gloves
+2017-08-07,21.0,24.4,Golf Gloves
+2017-08-14,10.0,16.9,Golf Gloves
+2017-08-21,11.0,12.9,Golf Gloves
+2017-08-28,24.0,11.9,Golf Gloves
+2017-09-04,24.0,16.9,Golf Gloves
+2017-09-11,17.0,8.9,Golf Gloves
+2017-09-18,10.0,7.4,Golf Gloves
+2017-09-25,11.0,19.9,Golf Gloves
+2017-06-19,31.0,23.9,Golf Shoes
+2017-06-26,22.0,22.4,Golf Shoes
+2017-07-03,31.0,18.4,Golf Shoes
+2017-07-10,29.0,25.9,Golf Shoes
+2017-07-17,16.0,30.4,Golf Shoes
+2017-07-24,13.0,26.8,Golf Shoes
+2017-07-31,30.0,26.7,Golf Shoes
+2017-08-07,17.0,28.1,Golf Shoes
+2017-08-14,32.0,19.1,Golf Shoes
+2017-08-21,14.0,32.1,Golf Shoes
+2017-08-28,35.0,25.1,Golf Shoes
+2017-09-04,22.0,24.6,Golf Shoes
+2017-07-10,11.857142857142858,12.2,Hockey
+2017-07-17,11.761904761904765,18.7,Hockey
+2017-07-24,11.666666666666666,7.2,Hockey
+2017-07-31,11.571428571428571,24.7,Hockey
+2017-08-07,11.476190476190476,14.4,Hockey
+2017-08-14,11.38095238095238,4.4,Hockey
+2017-08-21,11.285714285714286,19.9,Hockey
+2017-08-28,11.19047619047619,16.4,Hockey
+2017-09-04,11.095238095238097,13.7,Hockey
+2017-09-11,11.0,8.7,Hockey
+2017-09-18,8.0,6.2,Hockey
+2017-09-25,8.0,3.2,Hockey
+2017-06-19,3.0,5.6,Hunting & Shooting
+2017-06-26,12.0,13.6,Hunting & Shooting
+2017-07-03,6.0,10.7,Hunting & Shooting
+2017-07-10,17.0,8.3,Hunting & Shooting
+2017-07-17,28.0,18.4,Hunting & Shooting
+2017-07-24,6.0,11.9,Hunting & Shooting
+2017-07-31,15.0,10.5,Hunting & Shooting
+2017-08-07,7.0,20.6,Hunting & Shooting
+2017-08-14,13.0,11.2,Hunting & Shooting
+2017-08-21,17.0,11.7,Hunting & Shooting
+2017-08-28,7.0,13.7,Hunting & Shooting
+2017-09-04,15.0,18.2,Hunting & Shooting
+2017-07-17,390.0,408.6,Indoor/Outdoor Games
+2017-07-24,356.0,385.1,Indoor/Outdoor Games
+2017-07-31,383.0,409.1,Indoor/Outdoor Games
+2017-08-07,376.0,322.1,Indoor/Outdoor Games
+2017-08-14,354.0,359.3,Indoor/Outdoor Games
+2017-08-21,397.0,350.7,Indoor/Outdoor Games
+2017-08-28,442.0,390.2,Indoor/Outdoor Games
+2017-09-04,301.0,372.2,Indoor/Outdoor Games
+2017-09-11,362.0,503.6,Indoor/Outdoor Games
+2017-09-18,406.0,371.1,Indoor/Outdoor Games
+2017-09-25,371.0,431.1,Indoor/Outdoor Games
+2017-10-02,18.0,409.6,Indoor/Outdoor Games
+2017-07-17,28.0,21.0,Kids' Golf Clubs
+2017-07-24,19.0,36.1,Kids' Golf Clubs
+2017-07-31,16.0,36.1,Kids' Golf Clubs
+2017-08-07,23.0,22.2,Kids' Golf Clubs
+2017-08-14,36.0,33.2,Kids' Golf Clubs
+2017-08-21,39.0,18.3,Kids' Golf Clubs
+2017-08-28,24.0,26.5,Kids' Golf Clubs
+2017-09-04,43.0,24.7,Kids' Golf Clubs
+2017-09-11,24.0,26.2,Kids' Golf Clubs
+2017-09-18,31.0,24.3,Kids' Golf Clubs
+2017-09-25,25.0,28.5,Kids' Golf Clubs
+2017-10-02,1.0,19.6,Kids' Golf Clubs
+2017-06-19,4.0,12.6,Lacrosse
+2017-06-26,14.0,9.6,Lacrosse
+2017-07-03,16.0,8.6,Lacrosse
+2017-07-10,11.0,8.1,Lacrosse
+2017-07-17,5.0,4.3,Lacrosse
+2017-07-24,4.0,13.3,Lacrosse
+2017-07-31,8.0,7.3,Lacrosse
+2017-08-07,11.0,10.8,Lacrosse
+2017-08-14,3.0,9.1,Lacrosse
+2017-08-21,12.0,9.6,Lacrosse
+2017-08-28,1.0,8.1,Lacrosse
+2017-09-04,15.0,12.1,Lacrosse
+2017-07-17,161.0,152.7,Men's Footwear
+2017-07-24,147.0,164.7,Men's Footwear
+2017-07-31,165.0,160.2,Men's Footwear
+2017-08-07,164.0,158.7,Men's Footwear
+2017-08-14,153.0,168.2,Men's Footwear
+2017-08-21,153.0,177.2,Men's Footwear
+2017-08-28,132.0,177.2,Men's Footwear
+2017-09-04,150.0,167.2,Men's Footwear
+2017-09-11,178.0,161.3,Men's Footwear
+2017-09-18,145.0,166.3,Men's Footwear
+2017-09-25,149.0,169.8,Men's Footwear
+2017-10-02,9.0,156.8,Men's Footwear
+2017-06-26,17.0,26.6,Men's Golf Clubs
+2017-07-03,10.0,15.2,Men's Golf Clubs
+2017-07-10,25.0,28.8,Men's Golf Clubs
+2017-07-17,23.0,20.4,Men's Golf Clubs
+2017-07-24,34.0,27.2,Men's Golf Clubs
+2017-07-31,19.0,18.4,Men's Golf Clubs
+2017-08-07,9.0,17.6,Men's Golf Clubs
+2017-08-14,17.0,17.8,Men's Golf Clubs
+2017-08-21,22.0,17.0,Men's Golf Clubs
+2017-08-28,31.0,17.0,Men's Golf Clubs
+2017-09-04,20.0,10.0,Men's Golf Clubs
+2017-09-11,2.0,25.0,Men's Golf Clubs
+2017-07-17,264.0,234.9,Shop By Sport
+2017-07-24,247.0,184.9,Shop By Sport
+2017-07-31,226.0,223.4,Shop By Sport
+2017-08-07,203.0,242.9,Shop By Sport
+2017-08-14,232.0,261.0,Shop By Sport
+2017-08-21,192.0,205.5,Shop By Sport
+2017-08-28,240.0,213.0,Shop By Sport
+2017-09-04,230.0,213.5,Shop By Sport
+2017-09-11,227.0,258.0,Shop By Sport
+2017-09-18,226.0,241.5,Shop By Sport
+2017-09-25,190.0,195.0,Shop By Sport
+2017-10-02,5.0,223.0,Shop By Sport
+2017-06-19,20.0,23.6,Soccer
+2017-06-26,16.0,21.1,Soccer
+2017-07-03,16.0,22.7,Soccer
+2017-07-10,8.0,21.3,Soccer
+2017-07-17,12.0,18.3,Soccer
+2017-07-24,16.0,15.6,Soccer
+2017-07-31,9.0,20.9,Soccer
+2017-08-07,15.0,17.2,Soccer
+2017-08-14,13.0,19.9,Soccer
+2017-08-21,12.0,15.8,Soccer
+2017-08-28,11.0,15.7,Soccer
+2017-09-04,12.0,7.6,Soccer
+2017-07-17,5.0,2.0,Strength Training
+2017-07-24,4.0,4.0,Strength Training
+2017-07-31,3.0,3.0,Strength Training
+2017-08-07,5.0,3.0,Strength Training
+2017-08-14,6.0,3.1,Strength Training
+2017-08-21,3.0,3.2,Strength Training
+2017-08-28,6.0,1.2,Strength Training
+2017-09-04,2.0,3.3,Strength Training
+2017-09-11,11.0,1.1,Strength Training
+2017-09-18,12.0,3.2,Strength Training
+2017-09-25,19.0,5.3,Strength Training
+2017-10-02,5.0,4.4,Strength Training
+2017-01-30,19.0,9.3,Tennis & Racquet
+2017-02-06,24.0,7.1,Tennis & Racquet
+2017-02-13,14.0,8.1,Tennis & Racquet
+2017-02-20,4.0,9.6,Tennis & Racquet
+2017-02-27,18.0,10.1,Tennis & Racquet
+2017-03-06,7.0,14.4,Tennis & Racquet
+2017-03-13,7.0,15.6,Tennis & Racquet
+2017-03-20,2.0,9.1,Tennis & Racquet
+2017-03-27,3.0,17.6,Tennis & Racquet
+2017-04-03,8.0,13.3,Tennis & Racquet
+2017-04-10,8.0,12.0,Tennis & Racquet
+2017-04-17,4.0,16.6,Tennis & Racquet
+2017-06-19,2.0,1.1,Trade-In
+2017-06-26,3.0,8.1,Trade-In
+2017-07-03,4.0,19.6,Trade-In
+2017-07-10,5.0,16.6,Trade-In
+2017-07-17,5.5,2.8,Trade-In
+2017-07-24,6.0,1.5,Trade-In
+2017-07-31,7.0,0.0,Trade-In
+2017-08-07,3.0,0.0,Trade-In
+2017-08-14,6.0,0.0,Trade-In
+2017-08-21,4.0,13.0,Trade-In
+2017-08-28,6.0,0.0,Trade-In
+2017-09-04,3.0,5.0,Trade-In
+2017-07-17,111.0,111.3,Water Sports
+2017-07-24,74.0,113.8,Water Sports
+2017-07-31,118.0,98.3,Water Sports
+2017-08-07,124.0,99.3,Water Sports
+2017-08-14,108.0,115.9,Water Sports
+2017-08-21,125.0,119.9,Water Sports
+2017-08-28,95.0,106.9,Water Sports
+2017-09-04,126.0,100.8,Water Sports
+2017-09-11,113.0,111.0,Water Sports
+2017-09-18,118.0,104.0,Water Sports
+2017-09-25,128.0,117.5,Water Sports
+2017-10-02,8.0,103.1,Water Sports
+2017-07-17,453.0,443.6,Women's Apparel
+2017-07-24,384.0,489.6,Women's Apparel
+2017-07-31,476.0,462.5,Women's Apparel
+2017-08-07,415.0,493.5,Women's Apparel
+2017-08-14,396.0,430.3,Women's Apparel
+2017-08-21,466.0,429.4,Women's Apparel
+2017-08-28,441.0,422.3,Women's Apparel
+2017-09-04,457.0,399.3,Women's Apparel
+2017-09-11,430.0,465.3,Women's Apparel
+2017-09-18,466.0,507.4,Women's Apparel
+2017-09-25,468.0,451.3,Women's Apparel
+2017-10-02,25.0,440.4,Women's Apparel
+2017-06-19,16.0,13.2,Women's Golf Clubs
+2017-06-26,17.0,18.4,Women's Golf Clubs
+2017-07-03,21.0,11.6,Women's Golf Clubs
+2017-07-10,13.0,15.8,Women's Golf Clubs
+2017-07-17,23.0,10.8,Women's Golf Clubs
+2017-07-24,17.0,14.5,Women's Golf Clubs
+2017-07-31,32.0,15.3,Women's Golf Clubs
+2017-08-07,36.0,16.0,Women's Golf Clubs
+2017-08-14,22.0,16.6,Women's Golf Clubs
+2017-08-21,17.0,18.1,Women's Golf Clubs
+2017-08-28,25.0,22.7,Women's Golf Clubs
+2017-09-04,14.0,15.2,Women's Golf Clubs
