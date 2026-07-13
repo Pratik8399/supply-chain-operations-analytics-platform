@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw Kaggle data: never commit (size + license). See data/raw/README.md
+data/raw/*.csv
+# Processed intermediates are regenerable
+data/processed/
+outputs/figures/

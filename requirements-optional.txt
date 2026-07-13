@@ -1,0 +1,5 @@
+# Optional extras — the pipeline degrades gracefully without these:
+#   prophet: preferred forecasting tier (falls back to Holt-Winters / naive)
+#   google-cloud-bigquery: cloud warehouse stage (skips if absent)
+prophet>=1.1.5
+google-cloud-bigquery>=3.20

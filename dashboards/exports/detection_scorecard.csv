@@ -1,0 +1,6 @@
+issue,injected,detected_by_primary,recall,precision
+sla_breach,50,50,1.0,1.0
+cost_spike,30,30,1.0,1.0
+duplicate_transactions,20,20,1.0,1.0
+missing_values,39,39,1.0,1.0
+demand_shock,6,37,1.0,0.027

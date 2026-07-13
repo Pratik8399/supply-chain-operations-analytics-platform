@@ -1,0 +1,10 @@
+category_name,model,weeks_history,weeks_backtested,MAPE_pct,WMAPE_pct,bias_pct
+Men's Footwear,holt_winters,156,12,77.49,43.64,24.7
+Electronics,holt_winters,153,12,133.7,45.52,92.76
+Fishing,holt_winters,156,12,63.76,50.95,27.9
+Water Sports,holt_winters,155,12,54.32,50.97,-9.6
+Camping & Hiking,holt_winters,155,12,75.21,52.39,46.0
+Indoor/Outdoor Games,holt_winters,155,12,70.8,53.47,63.85
+Cardio Equipment,holt_winters,156,12,116.29,76.27,64.78
+Cleats,holt_winters,150,12,198.32,79.08,148.18
+Women's Apparel,holt_winters,156,12,152.29,79.69,130.71

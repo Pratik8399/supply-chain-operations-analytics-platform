@@ -1,0 +1,322 @@
+issue,key,detail,severity,route_to
+cost_spike,2962,billed 4.5x catalog-expected amount,critical,Finance Ops
+cost_spike,2981,billed 3.7x catalog-expected amount,critical,Finance Ops
+cost_spike,3146,billed 4.2x catalog-expected amount,critical,Finance Ops
+cost_spike,4642,billed 4.6x catalog-expected amount,critical,Finance Ops
+cost_spike,4277,billed 2.6x catalog-expected amount,critical,Finance Ops
+cost_spike,4639,billed 2.5x catalog-expected amount,critical,Finance Ops
+cost_spike,4622,billed 3.1x catalog-expected amount,critical,Finance Ops
+cost_spike,4569,billed 2.8x catalog-expected amount,critical,Finance Ops
+cost_spike,3882,billed 4.3x catalog-expected amount,critical,Finance Ops
+cost_spike,3802,billed 4.2x catalog-expected amount,critical,Finance Ops
+cost_spike,3530,billed 2.9x catalog-expected amount,critical,Finance Ops
+cost_spike,3472,billed 3.7x catalog-expected amount,critical,Finance Ops
+cost_spike,3204,billed 4.3x catalog-expected amount,critical,Finance Ops
+cost_spike,4235,billed 3.7x catalog-expected amount,critical,Finance Ops
+cost_spike,4061,billed 4.4x catalog-expected amount,critical,Finance Ops
+cost_spike,3945,billed 3.2x catalog-expected amount,critical,Finance Ops
+cost_spike,1547,billed 4.5x catalog-expected amount,critical,Finance Ops
+cost_spike,1549,billed 2.8x catalog-expected amount,critical,Finance Ops
+cost_spike,1661,billed 4.2x catalog-expected amount,critical,Finance Ops
+cost_spike,2803,billed 3.3x catalog-expected amount,critical,Finance Ops
+cost_spike,2408,billed 3.3x catalog-expected amount,critical,Finance Ops
+cost_spike,2760,billed 4.9x catalog-expected amount,critical,Finance Ops
+cost_spike,2599,billed 3.0x catalog-expected amount,critical,Finance Ops
+cost_spike,2500,billed 3.6x catalog-expected amount,critical,Finance Ops
+cost_spike,453,billed 3.0x catalog-expected amount,critical,Finance Ops
+cost_spike,1080,billed 3.4x catalog-expected amount,critical,Finance Ops
+cost_spike,1308,billed 4.2x catalog-expected amount,critical,Finance Ops
+cost_spike,1418,billed 4.6x catalog-expected amount,critical,Finance Ops
+cost_spike,245,billed 3.5x catalog-expected amount,critical,Finance Ops
+cost_spike,4852,billed 3.0x catalog-expected amount,critical,Finance Ops
+sla_breach,1118,shipped 5d past schedule,high,Logistics
+sla_breach,30,shipped 8d past schedule,high,Logistics
+sla_breach,4843,shipped 4d past schedule,high,Logistics
+sla_breach,4768,shipped 9d past schedule,high,Logistics
+sla_breach,4685,shipped 7d past schedule,high,Logistics
+sla_breach,4636,shipped 10d past schedule,high,Logistics
+sla_breach,4316,shipped 9d past schedule,high,Logistics
+sla_breach,4122,shipped 9d past schedule,high,Logistics
+sla_breach,4067,shipped 6d past schedule,high,Logistics
+sla_breach,3907,shipped 10d past schedule,high,Logistics
+sla_breach,3774,shipped 7d past schedule,high,Logistics
+sla_breach,3600,shipped 5d past schedule,high,Logistics
+sla_breach,3586,shipped 10d past schedule,high,Logistics
+sla_breach,3544,shipped 9d past schedule,high,Logistics
+sla_breach,3352,shipped 4d past schedule,high,Logistics
+sla_breach,3162,shipped 8d past schedule,high,Logistics
+sla_breach,3050,shipped 6d past schedule,high,Logistics
+sla_breach,3022,shipped 9d past schedule,high,Logistics
+sla_breach,2660,shipped 9d past schedule,high,Logistics
+sla_breach,2654,shipped 8d past schedule,high,Logistics
+sla_breach,2587,shipped 9d past schedule,high,Logistics
+sla_breach,2516,shipped 4d past schedule,high,Logistics
+sla_breach,2469,shipped 8d past schedule,high,Logistics
+sla_breach,2465,shipped 7d past schedule,high,Logistics
+sla_breach,2414,shipped 5d past schedule,high,Logistics
+sla_breach,2100,shipped 8d past schedule,high,Logistics
+sla_breach,1963,shipped 7d past schedule,high,Logistics
+sla_breach,1756,shipped 10d past schedule,high,Logistics
+sla_breach,1745,shipped 9d past schedule,high,Logistics
+sla_breach,1601,shipped 4d past schedule,high,Logistics
+sla_breach,1502,shipped 4d past schedule,high,Logistics
+sla_breach,4867,shipped 7d past schedule,high,Logistics
+sla_breach,4967,shipped 5d past schedule,high,Logistics
+sla_breach,1085,shipped 7d past schedule,high,Logistics
+sla_breach,1756,shipped 10d past schedule,high,Logistics
+duplicate_transactions,3188,exact duplicate order item,high,Order Management
+duplicate_transactions,142,exact duplicate order item,high,Order Management
+duplicate_transactions,2545,exact duplicate order item,high,Order Management
+duplicate_transactions,4028,exact duplicate order item,high,Order Management
+duplicate_transactions,3529,exact duplicate order item,high,Order Management
+duplicate_transactions,941,exact duplicate order item,high,Order Management
+duplicate_transactions,1819,exact duplicate order item,high,Order Management
+duplicate_transactions,1207,exact duplicate order item,high,Order Management
+duplicate_transactions,186,exact duplicate order item,high,Order Management
+duplicate_transactions,1756,exact duplicate order item,high,Order Management
+duplicate_transactions,1761,exact duplicate order item,high,Order Management
+duplicate_transactions,4664,exact duplicate order item,high,Order Management
+duplicate_transactions,3167,exact duplicate order item,high,Order Management
+duplicate_transactions,2043,exact duplicate order item,high,Order Management
+duplicate_transactions,3511,exact duplicate order item,high,Order Management
+duplicate_transactions,227,exact duplicate order item,high,Order Management
+duplicate_transactions,4171,exact duplicate order item,high,Order Management
+duplicate_transactions,1674,exact duplicate order item,high,Order Management
+duplicate_transactions,3540,exact duplicate order item,high,Order Management
+duplicate_transactions,1515,exact duplicate order item,high,Order Management
+demand_shock,Women's Apparel|2017-10-16,robust z=+4.0 vs rolling median,high,Demand Planning
+demand_shock,Fishing|2016-02-22,robust z=+4.7 vs rolling median,high,Demand Planning
+demand_shock,Fishing|2017-05-08,robust z=+5.4 vs rolling median,high,Demand Planning
+demand_shock,Fishing|2017-08-28,robust z=+3.7 vs rolling median,high,Demand Planning
+demand_shock,Fishing|2017-12-04,robust z=+9.4 vs rolling median,high,Demand Planning
+demand_shock,Indoor/Outdoor Games|2015-10-12,robust z=-4.7 vs rolling median,high,Demand Planning
+demand_shock,Indoor/Outdoor Games|2016-07-18,robust z=+11.5 vs rolling median,high,Demand Planning
+demand_shock,Indoor/Outdoor Games|2017-04-24,robust z=+5.1 vs rolling median,high,Demand Planning
+demand_shock,Men's Footwear|2015-06-08,robust z=+10.1 vs rolling median,high,Demand Planning
+demand_shock,Water Sports|2015-05-18,robust z=+5.4 vs rolling median,high,Demand Planning
+demand_shock,Water Sports|2016-07-18,robust z=+5.1 vs rolling median,high,Demand Planning
+demand_shock,Water Sports|2017-07-10,robust z=+3.6 vs rolling median,high,Demand Planning
+demand_shock,Water Sports|2017-08-28,robust z=+4.0 vs rolling median,high,Demand Planning
+demand_shock,Water Sports|2017-10-30,robust z=-4.7 vs rolling median,high,Demand Planning
+demand_shock,Women's Apparel|2015-09-07,robust z=+4.0 vs rolling median,high,Demand Planning
+demand_shock,Women's Apparel|2016-01-18,robust z=+5.1 vs rolling median,high,Demand Planning
+demand_shock,Women's Apparel|2016-11-21,robust z=+8.8 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2016-05-23,robust z=-4.4 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2017-01-23,robust z=+8.1 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2017-09-04,robust z=+4.9 vs rolling median,high,Demand Planning
+demand_shock,Cardio Equipment|2015-04-20,robust z=-8.8 vs rolling median,high,Demand Planning
+demand_shock,Cardio Equipment|2016-11-28,robust z=+7.4 vs rolling median,high,Demand Planning
+demand_shock,Cardio Equipment|2017-09-04,robust z=-6.7 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2015-04-27,robust z=+4.7 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2015-06-08,robust z=-4.0 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2015-11-16,robust z=+4.7 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2016-05-09,robust z=+4.9 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2016-09-26,robust z=+4.2 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2016-12-26,robust z=-4.0 vs rolling median,high,Demand Planning
+demand_shock,Cleats|2017-10-02,robust z=+3.8 vs rolling median,high,Demand Planning
+demand_shock,Electronics|2016-11-14,robust z=-6.1 vs rolling median,high,Demand Planning
+demand_shock,Electronics|2017-01-02,robust z=+4.0 vs rolling median,high,Demand Planning
+demand_shock,Fishing|2016-01-04,robust z=+6.1 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2015-02-16,robust z=-4.0 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2015-06-08,robust z=+5.4 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2015-08-10,robust z=+4.0 vs rolling median,high,Demand Planning
+demand_shock,Camping & Hiking|2016-03-28,robust z=+4.0 vs rolling median,high,Demand Planning
+sla_breach,66,shipped 6d past schedule,high,Logistics
+sla_breach,107,shipped 10d past schedule,high,Logistics
+sla_breach,229,shipped 10d past schedule,high,Logistics
+sla_breach,334,shipped 9d past schedule,high,Logistics
+sla_breach,394,shipped 5d past schedule,high,Logistics
+sla_breach,487,shipped 7d past schedule,high,Logistics
+sla_breach,502,shipped 8d past schedule,high,Logistics
+sla_breach,590,shipped 4d past schedule,high,Logistics
+sla_breach,643,shipped 10d past schedule,high,Logistics
+sla_breach,706,shipped 7d past schedule,high,Logistics
+sla_breach,795,shipped 9d past schedule,high,Logistics
+sla_breach,839,shipped 4d past schedule,high,Logistics
+sla_breach,916,shipped 9d past schedule,high,Logistics
+sla_breach,927,shipped 7d past schedule,high,Logistics
+sla_breach,1056,shipped 7d past schedule,high,Logistics
+sla_breach,1074,shipped 7d past schedule,high,Logistics
+forecast_drift,Women's Apparel|2017-10-16,drift 29%,medium,Demand Planning
+forecast_drift,Women's Apparel|2017-08-21,drift 20%,medium,Demand Planning
+forecast_drift,Women's Apparel|2017-01-16,drift 17%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-11-21,drift 21%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-10-31,drift 17%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-09-26,drift 17%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-07-11,drift 17%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-06-13,drift 17%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-04-25,drift 27%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-04-04,drift 25%,medium,Demand Planning
+forecast_drift,Women's Apparel|2016-01-11,drift 25%,medium,Demand Planning
+forecast_drift,Women's Apparel|2015-12-21,drift 20%,medium,Demand Planning
+forecast_drift,Women's Apparel|2015-09-21,drift 20%,medium,Demand Planning
+forecast_drift,Women's Apparel|2015-01-26,drift 25%,medium,Demand Planning
+forecast_drift,Water Sports|2017-11-13,drift 17%,medium,Demand Planning
+forecast_drift,Water Sports|2017-05-29,drift 17%,medium,Demand Planning
+multivariate_outlier,3525,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3355,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3218,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3210,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,2808,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,2540,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,2355,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,2038,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1509,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1479,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1455,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1415,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1224,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1176,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,1034,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,803,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4926,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4845,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4823,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4753,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4504,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4402,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,4312,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3860,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3737,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3618,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3588,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,3532,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,778,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,564,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,238,IsolationForest flag,medium,Analytics Review
+multivariate_outlier,172,IsolationForest flag,medium,Analytics Review
+missing_values,4171,critical field null,medium,Data Engineering
+missing_values,186,critical field null,medium,Data Engineering
+missing_values,4849,critical field null,medium,Data Engineering
+missing_values,4766,critical field null,medium,Data Engineering
+missing_values,4400,critical field null,medium,Data Engineering
+missing_values,4341,critical field null,medium,Data Engineering
+missing_values,4327,critical field null,medium,Data Engineering
+missing_values,4007,critical field null,medium,Data Engineering
+missing_values,3950,critical field null,medium,Data Engineering
+missing_values,3901,critical field null,medium,Data Engineering
+missing_values,3810,critical field null,medium,Data Engineering
+missing_values,3285,critical field null,medium,Data Engineering
+missing_values,2977,critical field null,medium,Data Engineering
+missing_values,2927,critical field null,medium,Data Engineering
+missing_values,2865,critical field null,medium,Data Engineering
+missing_values,2796,critical field null,medium,Data Engineering
+missing_values,2792,critical field null,medium,Data Engineering
+missing_values,2562,critical field null,medium,Data Engineering
+missing_values,2392,critical field null,medium,Data Engineering
+missing_values,2227,critical field null,medium,Data Engineering
+missing_values,2089,critical field null,medium,Data Engineering
+missing_values,2049,critical field null,medium,Data Engineering
+missing_values,2023,critical field null,medium,Data Engineering
+missing_values,1793,critical field null,medium,Data Engineering
+missing_values,1749,critical field null,medium,Data Engineering
+missing_values,1342,critical field null,medium,Data Engineering
+missing_values,1115,critical field null,medium,Data Engineering
+missing_values,1099,critical field null,medium,Data Engineering
+forecast_drift,Cardio Equipment|2016-12-19,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2016-12-05,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2016-08-15,drift 23%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2015-09-28,drift 21%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2015-09-21,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2015-08-31,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2015-07-06,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2015-04-27,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2015-02-09,drift 17%,medium,Demand Planning
+forecast_drift,Camping & Hiking|2016-09-19,drift 17%,medium,Demand Planning
+forecast_drift,Camping & Hiking|2016-08-08,drift 21%,medium,Demand Planning
+forecast_drift,Camping & Hiking|2016-07-18,drift 21%,medium,Demand Planning
+forecast_drift,Camping & Hiking|2016-06-06,drift 60%,medium,Demand Planning
+forecast_drift,Camping & Hiking|2015-12-07,drift 20%,medium,Demand Planning
+forecast_drift,Camping & Hiking|2015-10-12,drift 17%,medium,Demand Planning
+forecast_drift,Cleats|2017-07-10,drift 17%,medium,Demand Planning
+forecast_drift,Cleats|2017-03-20,drift 25%,medium,Demand Planning
+forecast_drift,Cleats|2017-03-13,drift 25%,medium,Demand Planning
+forecast_drift,Cleats|2016-12-12,drift 17%,medium,Demand Planning
+forecast_drift,Cleats|2016-12-05,drift 15%,medium,Demand Planning
+forecast_drift,Cleats|2016-11-07,drift 17%,medium,Demand Planning
+forecast_drift,Cleats|2016-09-26,drift 59%,medium,Demand Planning
+forecast_drift,Cleats|2016-07-25,drift 17%,medium,Demand Planning
+forecast_drift,Cleats|2016-02-15,drift 17%,medium,Demand Planning
+forecast_drift,Cleats|2015-08-17,drift 18%,medium,Demand Planning
+forecast_drift,Cleats|2015-05-18,drift 18%,medium,Demand Planning
+forecast_drift,Cleats|2015-05-04,drift 16%,medium,Demand Planning
+forecast_drift,Cleats|2015-02-23,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2017-08-21,drift 17%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2017-07-17,drift 22%,medium,Demand Planning
+forecast_drift,Cardio Equipment|2017-03-13,drift 17%,medium,Demand Planning
+forecast_drift,Fishing|2015-12-14,drift 20%,medium,Demand Planning
+forecast_drift,Fishing|2015-11-16,drift 25%,medium,Demand Planning
+forecast_drift,Fishing|2015-10-05,drift 20%,medium,Demand Planning
+forecast_drift,Fishing|2015-07-20,drift 17%,medium,Demand Planning
+forecast_drift,Fishing|2015-06-01,drift 23%,medium,Demand Planning
+forecast_drift,Fishing|2015-05-04,drift 18%,medium,Demand Planning
+forecast_drift,Fishing|2015-03-30,drift 17%,medium,Demand Planning
+forecast_drift,Fishing|2015-01-19,drift 50%,medium,Demand Planning
+forecast_drift,Fishing|2014-12-29,drift 17%,medium,Demand Planning
+forecast_drift,Electronics|2017-08-21,drift 17%,medium,Demand Planning
+forecast_drift,Electronics|2017-08-14,drift 20%,medium,Demand Planning
+forecast_drift,Electronics|2016-10-03,drift 25%,medium,Demand Planning
+forecast_drift,Electronics|2016-08-29,drift 18%,medium,Demand Planning
+forecast_drift,Electronics|2016-02-22,drift 17%,medium,Demand Planning
+forecast_drift,Electronics|2015-10-12,drift 25%,medium,Demand Planning
+forecast_drift,Electronics|2015-02-09,drift 33%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2015-12-14,drift 20%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2015-11-02,drift 17%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2015-10-12,drift 25%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2015-08-10,drift 30%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2015-07-06,drift 17%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2015-06-29,drift 20%,medium,Demand Planning
+forecast_drift,Fishing|2017-12-18,drift 17%,medium,Demand Planning
+forecast_drift,Fishing|2017-05-29,drift 65%,medium,Demand Planning
+forecast_drift,Fishing|2017-02-13,drift 15%,medium,Demand Planning
+forecast_drift,Fishing|2016-12-12,drift 17%,medium,Demand Planning
+forecast_drift,Fishing|2016-11-21,drift 33%,medium,Demand Planning
+forecast_drift,Fishing|2016-10-31,drift 17%,medium,Demand Planning
+forecast_drift,Fishing|2016-10-24,drift 20%,medium,Demand Planning
+forecast_drift,Fishing|2016-07-11,drift 58%,medium,Demand Planning
+forecast_drift,Fishing|2016-06-27,drift 19%,medium,Demand Planning
+forecast_drift,Fishing|2016-02-15,drift 17%,medium,Demand Planning
+forecast_drift,Men's Footwear|2017-07-24,drift 17%,medium,Demand Planning
+forecast_drift,Men's Footwear|2017-01-30,drift 20%,medium,Demand Planning
+forecast_drift,Men's Footwear|2016-07-18,drift 17%,medium,Demand Planning
+forecast_drift,Men's Footwear|2016-07-04,drift 18%,medium,Demand Planning
+forecast_drift,Men's Footwear|2015-11-02,drift 15%,medium,Demand Planning
+forecast_drift,Men's Footwear|2015-04-27,drift 17%,medium,Demand Planning
+forecast_drift,Men's Footwear|2015-03-02,drift 16%,medium,Demand Planning
+forecast_drift,Men's Footwear|2015-02-16,drift 17%,medium,Demand Planning
+forecast_drift,Men's Footwear|2015-01-12,drift 25%,medium,Demand Planning
+forecast_drift,Men's Footwear|2015-01-05,drift 43%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2017-12-11,drift 33%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2017-08-28,drift 17%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2017-05-29,drift 18%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2017-01-09,drift 25%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2016-10-10,drift 22%,medium,Demand Planning
+forecast_drift,Indoor/Outdoor Games|2016-07-04,drift 20%,medium,Demand Planning
+forecast_drift,Water Sports|2017-05-01,drift 20%,medium,Demand Planning
+forecast_drift,Water Sports|2017-03-20,drift 19%,medium,Demand Planning
+forecast_drift,Water Sports|2016-12-12,drift 20%,medium,Demand Planning
+forecast_drift,Water Sports|2016-12-05,drift 25%,medium,Demand Planning
+forecast_drift,Water Sports|2016-11-07,drift 17%,medium,Demand Planning
+forecast_drift,Water Sports|2016-08-29,drift 20%,medium,Demand Planning
+forecast_drift,Water Sports|2016-05-23,drift 15%,medium,Demand Planning
+forecast_drift,Water Sports|2016-05-02,drift 17%,medium,Demand Planning
+forecast_drift,Water Sports|2016-03-28,drift 25%,medium,Demand Planning
+forecast_drift,Water Sports|2016-03-21,drift 17%,medium,Demand Planning
+forecast_drift,Water Sports|2015-10-12,drift 17%,medium,Demand Planning
+forecast_drift,Water Sports|2015-04-20,drift 15%,medium,Demand Planning
+forecast_drift,Water Sports|2015-03-23,drift 17%,medium,Demand Planning
+forecast_drift,Water Sports|2015-01-26,drift 17%,medium,Demand Planning
+forecast_drift,Men's Footwear|2017-10-23,drift 100%,medium,Demand Planning
+forecast_drift,Men's Footwear|2017-07-31,drift 20%,medium,Demand Planning
+missing_values,977,critical field null,medium,Data Engineering
+missing_values,932,critical field null,medium,Data Engineering
+missing_values,822,critical field null,medium,Data Engineering
+missing_values,780,critical field null,medium,Data Engineering
+missing_values,512,critical field null,medium,Data Engineering
+missing_values,431,critical field null,medium,Data Engineering
+missing_values,332,critical field null,medium,Data Engineering
+missing_values,258,critical field null,medium,Data Engineering
+missing_values,191,critical field null,medium,Data Engineering
+missing_values,186,critical field null,medium,Data Engineering
+missing_values,103,critical field null,medium,Data Engineering
+missing_values,90,critical field null,medium,Data Engineering
