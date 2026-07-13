@@ -44,7 +44,6 @@ over/under-forecasting.
 - Demand-level "precision vs injected" **undercounts true precision**: the
   detector also fires on organic volatility that is genuinely anomalous but
   wasn't injected. On the noisy 5k dev sample this is severe; on the real
-  180k-row dataset weekly demand is far smoother. Report your real-run
-  numbers and say exactly this in review.
+  180k-row dataset weekly demand is far smoother.
 - forecast_drift is excluded from precision scoring by design — it is an
   operational alert on planner error, not an injected-issue detector.
