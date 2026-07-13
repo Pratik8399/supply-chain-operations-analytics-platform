@@ -33,12 +33,6 @@ optimization; production scheduler (documented as next steps).
 views, dashboard exports + wireframes + adoption guide, methodology and
 governance documentation, executive summary artifact.
 
-**Timeline (5 working days).**
-- D1: ingestion, augmentation + manifest, quality gates
-- D2: forecasting with backtest harness
-- D3: anomaly ensemble + ground-truth validation
-- D4: insight generation, governance, orchestration
-- D5: BI layer, dashboards, documentation, adoption guide
 
 **Risks & mitigations.**
 - Kaggle file licensing/size -> raw data git-ignored; download runbook
