@@ -7,7 +7,7 @@ raw Kaggle CSV -> ingestion (standardize, latin-1) -> augmentation
 (validated vs manifest) -> BI exports (Power BI / Tableau) — all orchestrated
 by `pipeline_orchestration.py` with per-stage timing + run logging.
 
-## Decisions worth defending
+## Decisions decisions
 **Raw data is git-ignored.** 90MB CSVs don't belong in git and Kaggle
 licenses typically forbid redistribution. The compliant pattern: download
 instructions + ingestion script + committed dev sample. This is itself a
