@@ -1,5 +1,4 @@
 # Executive Summary — Operations Analytics
-*Generated 13 Jul 2026 by the automated insight module (template-based narrative generation).*
 
 ## Business at a glance
 Revenue of $36,785,077 across 65,752 orders and 50 categories, with overall on-time-in-full at 42.3%.
