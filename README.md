@@ -24,7 +24,7 @@ This project takes a hybrid route: real transaction data is used as the operatio
 
 The injection manifest acts as ground truth, so anomaly detection can be scored with measured recall and precision rather than visual inspection.
 
-In the full DataCo run, deterministic injected anomalies such as cost spikes, duplicate transactions, and missing values were recovered with near-perfect or perfect recall/precision against the manifest. Demand-level anomalies are reported separately because real organic volatility can legitimately trigger operational alerts outside the injected set. See `docs/methodology.md` for the full treatment.
+In the full DataCo run, deterministic injected anomalies such as cost spikes, duplicate transactions, and missing values were recovered with near-perfect or perfect recall/precision against the manifest. Demand-level anomalies are reported separately because real organic volatility can legitimately trigger operational alerts outside the injected set.
 
 ---
 
