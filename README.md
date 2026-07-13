@@ -1,4 +1,4 @@
-# Enterprise Operations Analytics & Automation Suite
+# Supply Chain Operations Analytics Platform
 
 ### Hybrid Supply Chain BI Platform with Forecasting, Anomaly Detection, Governance, BigQuery Warehousing, and Automated Insight Generation
 
