@@ -156,8 +156,3 @@ BI & Exports
 - Pipeline execution logged for full traceability
 
 
----
-
-## License
-
-MIT
